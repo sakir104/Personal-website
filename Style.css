@@ -1,0 +1,890 @@
+
+/* Home Starts from here*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.home{
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+.nav-bar a{
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white;
+    opacity: 1;
+    
+}
+
+.nav-bar {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: rgba(0, 0, 0, 0.151);
+    font-family: 'Arial';
+    box-shadow: 0 3px 5px black;
+    position: relative;
+}
+
+.nav-bar :hover{
+    background-color: rgba(0, 0, 0, 0.336);
+    border-radius: 10px;
+    
+
+}
+.nav-bar a{
+    display: block;
+}
+
+.name{
+    padding-bottom: 90px;
+}
+.name h1{
+    color: white;
+    padding: 5px;
+    font-family: 'Balsamiq Sans';
+    font-size: 1.8rem;
+}
+
+.name h2{
+    color: white;
+    font-family: 'Balsamiq Sans';
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+
+.my-img img{
+    height: 187px;
+    width: 177px;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+
+/*Home ends here*/
+
+
+
+/*About me starts here*/
+
+.about_me{
+    text-align: center;
+}
+.about_me_head{
+    background-image: url(about.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about_me_head h1{
+    color: white;
+    font-size: 2.3rem;
+    font-family: 'Arimo';
+}
+
+.about_me_head hr{
+    width: 220px;
+    height: 4px;
+    background-color: white;
+    margin: 5px auto;
+}
+
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+
+.about_me{
+    text-align: center;
+}
+.d{
+    background-color: azure;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.story h2{
+    font-size: 1.5rem;
+    color: blue;
+    font-family: 'Arimo';
+    margin-bottom: 20px;
+}
+
+.story p{
+    font-size: 1.1rem;
+    font-family: 'Hind Siliguri';
+}
+
+.cv_btn button{
+    background-color: black;
+    border: none;
+    font-weight: bolder;
+    box-shadow: 2px 3px 6px black;
+    margin-bottom: 40px;
+    padding: 10px;
+    font-size: 0.9rem;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.img1{
+    
+    border: 10px white solid;
+    box-shadow: 2px 4px 2px black; 
+    height: 200px;
+    width: 150px;
+}
+
+.info{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.info h2{
+    font-size: 1.5rem;
+    color: blue;
+    font-family: 'Arimo';
+    margin-bottom: 20px;
+}
+.info p{
+    font-size: 1.1rem;
+    font-family: 'Hind Siliguri';
+    margin-bottom: 10px;
+}
+.info hr{
+    margin-bottom: 5px;
+    height: 3px;
+    background-color: black;
+}
+
+
+.btn1{
+    text-align: center;
+    font-size: 1.5rem;
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 50%;
+    border: none;
+    background-color: floralwhite;
+    box-shadow: 2px 2px 2px black;
+    cursor: pointer;
+}
+.btn3, .btn6{
+    color: blue;
+}
+.btn4{
+    color: red;
+}
+.btn1:hover{
+    background-color: yellowgreen;
+}
+
+
+/*about me ends here*/
+
+
+
+/*education strts here*/
+
+.education_head{
+    background-image: url(bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.education_head h1{
+    color: white;
+    font-size: 2.3rem;
+    font-family: 'Arimo';
+    margin-top: 30px;
+}
+
+.education_head hr{
+    width: 190px;
+    height: 4px;
+    background-color: white;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.education img{
+    width: 97px;
+    height: 76px;
+}
+
+
+.education_body{
+    background-color: rgb(225, 255, 226);
+    
+    padding-bottom: 80px;
+    padding-top: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.ssc{
+    background-color: rgb(211, 237, 211);
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    box-shadow: 6px 7px 15px;
+}
+.ssc strong{
+    font-size: 1.4rem;
+    font-family: 'Arimo';
+}
+.p{
+    font-size: 1.2rem;
+    font-family: 'Hind Siliguri';
+}
+
+.ssc p{
+    font-size: 1.1rem;
+    font-family: 'Hind Siliguri';
+}
+
+.hsc{
+    background-color: rgb(211, 237, 211);
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    box-shadow: 6px 7px 15px;
+}
+
+.hsc strong{
+    font-size: 1.4rem;
+    font-family: 'Arimo';
+}
+.p{
+    font-size: 1.2rem;
+    font-family: 'Hind Siliguri';
+}
+
+.hsc p{
+    font-size: 1.1rem;
+    font-family: 'Hind Siliguri';
+}
+
+.cse{
+    background-color: rgb(211, 237, 211);
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    box-shadow: 6px 7px 15px;
+}
+
+.cse strong{
+    font-size: 1.4rem;
+    font-family: 'Arimo';
+}
+.p{
+    font-size: 1.2rem;
+    font-family: 'Hind Siliguri';
+}
+
+.cse p{
+    font-size: 1.1rem;
+    font-family: 'Hind Siliguri';
+}
+
+.cse1{
+    
+    display: block;
+}
+
+.ssc:hover{
+    background-color: burlywood;
+}
+
+.hsc:hover{
+    background-color: burlywood;
+}
+
+.cse:hover{
+    background-color: burlywood;
+}
+/*education eds here*/
+
+
+
+/*skill strts here*/
+
+.skill_head{
+    background-color: rgb(15, 15, 15);
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    
+}
+
+.skill_head h1{
+    color: white;
+    font-size: 2.3rem;
+    font-family: 'Arimo';
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+.skill_head hr{
+    width: 160px;
+    height: 4px;
+    background-color: white;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skill_head p{
+    color: white;
+    font-size: .9rem;
+    font-family: 'Hind Siliguri';
+}
+
+.skill_para{
+    display: grid;
+    grid-template-columns: repeat(3,33.33%);
+}
+.skill_body{
+    background-color: rgb(39, 40, 33);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.list1{
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+}
+
+.list2{
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+}
+
+.list3{
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+}
+
+.list4{
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+}
+
+.list5{
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+}
+
+.list6{
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+}
+li{
+    margin-top: 60px;
+    list-style-type: none;
+    font-size: 1.2rem;
+    font-family: 'Hind Siliguri';
+    position: relative;
+    color:white;
+    text-shadow: 7px 7px 5px rgb(15, 15, 15, 0.8);
+    
+}
+
+.skill_body1 li::before{
+    content: '';
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 100%;
+    height: 15px;
+    background-color: rgb(51, 51, 51);
+    border-radius: 1000px;
+    box-shadow: 7px 7px 5px rgb(15, 15, 15, 0.8);
+}
+
+.skill_body2 li::before{
+    content: '';
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 100%;
+    height: 15px;
+    background-color: rgb(51, 51, 51);
+    border-radius: 1000px;
+    box-shadow: 7px 7px 5px rgb(15, 15, 15, 0.8);
+}
+
+.gra1::after{
+    content: '70%';
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 70%;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.html1::after{
+    content: '90%';
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 90%;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.java1::after{
+    content: '20%';
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 20%;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.vio1::after{
+    content: '80%';
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 80%;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.css1::after{
+    content: '85%';
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 85%;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.php1::after{
+    content: '10%';
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 10%;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.skill_body1 li::after{
+    content: '';
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 0;
+    height: 15px;
+    background-color: rgb(215, 244, 8);
+    border-radius: 1000px;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: forward;
+}
+
+.skill_body2 li::after{
+    content: '';
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 0;
+    height: 15px;
+    background-color: rgb(215, 244, 8);
+    border-radius: 1000px;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: forward;
+}
+
+.skill_body1 .gra::after{
+    animation-name: gra;
+}
+
+
+
+@keyframes gra{
+    to{
+        width: 70%;
+    }
+}
+.skill_body1 .html::after{
+    animation-name: html;
+}
+
+@keyframes html{
+    to{
+        width: 90%;
+    }
+}
+
+.skill_body1 .java::after{
+    animation-name: java;
+}
+
+@keyframes java{
+    to{
+        width: 20%;
+    }
+}
+
+.skill_body2 .vio::after{
+    animation-name: vio;
+}
+
+@keyframes vio{
+    to{
+        width: 80%;
+    }
+}
+
+.skill_body2 .css::after{
+    animation-name: css;
+}
+
+@keyframes css{
+    to{
+        width: 85%;
+    }
+}
+
+.skill_body2 .php::after{
+    animation-name: php;
+}
+
+@keyframes php{
+    to{
+        width: 10%;
+    }
+}
+
+.portfolio{
+    display: grid;
+    grid-template-columns: repeat(3,33.33%);
+    text-align: center;
+}
+
+.btn10{
+    margin-top: 80px;
+    padding: 15px;
+    font-size: 1.1rem;
+    font-family: 'Arial';
+    background-color: rgb(215, 244, 8);
+    box-shadow: 7px 7px 5px rgb(15, 15, 15, 0.8);
+    border: none;
+    border-radius: 800px;
+    cursor: pointer;
+}
+
+.btn10:hover{
+    background-color: rgb(211, 237, 211);
+}
+/*skill ends here*/
+
+
+/*Contact Me starts here*/
+
+.contact_head{
+    background-image: url(conbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact_head h1{
+    color: black;
+    font-size: 2.3rem;
+    font-family: 'Arimo';
+    padding-top: 50px;
+}
+
+.contact_head hr{
+    width: 230px;
+    height: 4px;
+    background-color: black;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact_head_para{
+    display: grid;
+    grid-template-columns: repeat(3,33.33%);
+}
+
+.contact_head_para p{
+    font-size: 1rem;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.contact_other{
+    margin-right: 0px;
+    margin-top: 0px;
+    
+}
+
+.contact_body{
+    background-color: rgb(240, 240, 240);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.contact_other{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    padding-bottom: 40px;
+}
+
+.contact_call{
+    background-color: rgb(234, 234, 234);
+    box-shadow: 5px 5px 9px black;
+    padding-top: 35px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 20px;
+    margin-left: 0px;
+}
+
+
+.contact_call i{
+    font-size: 1.2rem;
+    color: red;
+    border: 2px red solid;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.contact_call strong{
+    font-size: 1.3rem;
+    font-family: 'Arimo';
+    
+}
+
+
+.contact_call p{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-size: 1rem;
+    word-break: break-word;
+    color: blue;
+    font-family: 'Hind Siliguri';
+}
+
+.contact_mail{
+    background-color: rgb(234, 234, 234);
+    box-shadow: 5px 5px 9px black;
+    padding-top: 35px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+
+.contact_mail i{
+    font-size: 1.2rem;
+    color: red;
+    border: 2px red solid;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.contact_mail strong{
+    font-size: 1.3rem;
+    font-family: 'Arimo';
+    text-align-last: right;
+}
+
+.contact_mail p{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-size: 1rem;
+    word-break: break-word;
+    color: blue;
+    font-family: 'Hind Siliguri';
+}
+
+.contact_form{
+    background-color: rgb(234, 234, 234);
+    box-shadow: 5px 5px 9px black;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.contact_h2{
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'Arimo';
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.contact_form2 p{
+    font-size: 1.2rem;
+    font-family: 'Hind Siliguri';
+}
+
+.contact_info{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.info1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+input{
+    text-align: center;
+}
+
+.contact_info input{
+    margin-bottom: 20px;
+    padding: 5px;
+}
+#f_name{
+    background-color: rgb(216, 216, 216);
+    margin-right: 8px;
+    width: 100%;
+    border: none;
+    box-shadow: 1px 1px 5px;
+    line-height: 20px;
+    outline: none;
+}
+
+#l_name{
+    background-color: rgb(216, 216, 216);
+    margin-left: 5px;
+    width: 100%;
+    border: none;
+    box-shadow: 1px 1px 5px;
+    line-height: 20px;
+    outline: none;
+}
+
+#email{
+    background-color: rgb(216, 216, 216);
+    width: 100%;
+    border: none;
+    box-shadow: 1px 1px 5px;
+    line-height: 20px;
+    outline: none;
+}
+
+#t_area{
+    background-color: rgb(216, 216, 216);
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    width:100%;
+    border: none;
+    box-shadow: 1px 1px 5px;
+    resize: none;
+    outline: none;
+}
+
+.form_btn button{
+    padding: 5px 10px;
+    font-size: 1rem;
+    font-family: 'Arial';
+}
+
+.submi{
+    margin-right: 20px;
+    margin-top: 7px;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+}
+
+.rese{
+    margin-left: 20px ;
+    margin-top: 7px;
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+}
+
+.submi:hover{
+    background-color: burlywood;
+}
+
+.rese:hover{
+    background-color: cadetblue;
+}
+
+#f_name:focus{
+    background-color: rgba(62, 179, 153, 0.651);
+}
+
+#l_name:focus{
+    background-color: rgba(62, 179, 153, 0.651);
+}
+
+#email:focus{
+    background-color: rgba(62, 179, 153, 0.651);
+}
+
+#t_area:focus{
+    background-color: rgba(62, 179, 153, 0.651);
+}
+/*contact me ends here*/
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 3% 2%;
+    margin-top: 5px;
+}
+
+footer strong{
+    font-size: 1rem;
+    font-family: 'Hind Siliguri';
+    color: white;
+}
